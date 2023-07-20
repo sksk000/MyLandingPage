@@ -1,3 +1,19 @@
 #signpage {
   background-color: brown;
 }
+#slidermenu {
+  background-color: aliceblue;
+  position: absolute;
+  height: 100%;
+  margin-left: -140px;
+}
+
+#menubutton {
+  right: -70px;
+  position: absolute;
+  top: -1px;
+}
+
+.openmenu {
+  margin-right: -140px;
+}
