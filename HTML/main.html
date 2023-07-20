@@ -37,7 +37,65 @@
             amet!
           </div>
           <div class="text-center">
-            <button type="button" class="btn btn-primary">Sign Up</button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#modal"
+            >
+              Sign Up
+            </button>
+          </div>
+          <div
+            class="modal fade"
+            id="modal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Sign Up</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="text mt-3">
+                      Register with us to get offers, support and more
+                    </div>
+                    <label class="form-label">Name</label>
+                    <input class="form-control" placeholder="Enter Name" />
+                    <label class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Email"
+                    />
+                    <label class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Enter PassWord"
+                    />
+                    <label class="form-label">Confirm Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Confirm Password"
+                    />
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
