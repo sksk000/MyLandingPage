@@ -16,30 +16,43 @@
     <div class="container-fluid" id="page">
       <div class="row">
         <div class="col p-0">
-          <div id="slidermenu">
-            <ul>
-              <li>An item</li>
-              <li>A second item</li>
-              <li>A third item</li>
-              <li>A fourth item</li>
-              <li>And a fifth one</li>
-            </ul>
-            <button class="btn btn-primary" id="menubutton">toggle</button>
+          <div class="slidermenu">
+            <div class="list-group">
+              <li class="list-group-item" href="#" id="list">
+                <img
+                  src="../PNG/icon.png"
+                  class="img-thumbnail"
+                  alt=""
+                  id="list"
+                />
+              </li>
+              <a class="list-group-item p-3" href="#" id="list">Home</a>
+              <a class="list-group-item p-3" href="#" id="list">Portfolio</a>
+              <a class="list-group-item p-3" href="#" id="list">Blog</a>
+              <a class="list-group-item p-3" href="#" id="list">Contact Me</a>
+            </div>
+            <button class="navbar-toggler navbar-light" id="menubutton">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="row" id="signpage">
+      <div class="row h-25" id="signpage">
         <div class="col">
-          <div class="text-center" id="title">My Landing Page</div>
-          <div class="text-center" id="content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
-            amet!
+          <div class="text-center p-4" id="title">
+            <h1>My Landing Page</h1>
+          </div>
+          <div class="text-center mt-2" id="content">
+            <h5>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+              amet!
+            </h5>
           </div>
           <div class="text-center">
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary btn-lg mt-3"
               data-bs-toggle="modal"
               data-bs-target="#modal"
             >
@@ -55,7 +68,7 @@
           >
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header" id="modaltitle">
                   <h5 class="modal-title">Sign Up</h5>
                   <button
                     type="button"
@@ -66,7 +79,7 @@
                 </div>
                 <div class="modal-body">
                   <form>
-                    <div class="text mt-3">
+                    <div class="text mt-3" id="modalbody">
                       Register with us to get offers, support and more
                     </div>
                     <label class="form-label">Name</label>
@@ -100,9 +113,11 @@
         </div>
       </div>
 
-      <div class="row mx-auto w-50">
+      <div class="row mx-auto w-50 pt-5" id="content">
         <div class="col">
-          <div class="text-center">What is this landing page about?</div>
+          <div class="text">
+            <h4>What is this landing page about?</h4>
+          </div>
           <div class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
             iure accusamus ab consectetur eos provident ipsa est perferendis
@@ -114,7 +129,7 @@
             optio officia ipsa. Cum dignissimos possimus et non provident
             facilis saepe!
           </div>
-          <div class="text-center">Tell Me More</div>
+          <div class="text pt-5"><h4>Tell Me More</h4></div>
           <div class="text">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
             eaque delectus explicabo qui reprehenderit? Aspernatur ad similique
@@ -122,22 +137,23 @@
             ullam impedit esse quibusdam, deleniti laudantium rerum beatae,
             deserunt nemo neque, obcaecati exercitationem sit. Earum.
           </div>
-          <div class="text-center">Benefits</div>
+          <div class="text pt-5"><h4>Benefits</h4></div>
           <ul>
             <li>Lifetime Access</li>
             <li>30 Day Money Back</li>
             <li>Tailored Customer Support</li>
           </ul>
-        </div>
-        <div class="text">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam
-          nostrum, fugiat, itaque natus officia laborum dolorum id accusantium
-          culpa architecto tenetur fuga? Consequatur provident rerum eius
-          ratione dolor officiis doloremque minima optio dignissimos doloribus
-          odio debitis vero cumque itaque excepturi a neque, expedita nulla
-          earum accusamus repellat adipisci veritatis quam. Ipsum fugiat iusto
-          pariatur consectetur quas libero dolor dolores dolorem, nostrum
-          ducimus doloremque placeat accusamus iste, culpa quaerat consequatur?
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam
+            nostrum, fugiat, itaque natus officia laborum dolorum id accusantium
+            culpa architecto tenetur fuga? Consequatur provident rerum eius
+            ratione dolor officiis doloremque minima optio dignissimos doloribus
+            odio debitis vero cumque itaque excepturi a neque, expedita nulla
+            earum accusamus repellat adipisci veritatis quam. Ipsum fugiat iusto
+            pariatur consectetur quas libero dolor dolores dolorem, nostrum
+            ducimus doloremque placeat accusamus iste, culpa quaerat
+            consequatur?
+          </div>
         </div>
       </div>
     </div>
