@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form Validator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid" id="page">
+      <div class="row">
+        <div class="col p-0">
+          <div class="slidermenu">
+            <div class="list-group">
+              <li class="list-group-item" href="#" id="list">
+                <img
+                  src="../PNG/icon.png"
+                  class="img-thumbnail"
+                  alt=""
+                  id="list"
+                />
+              </li>
+              <a class="list-group-item p-3" href="#" id="list">Home</a>
+              <a class="list-group-item p-3" href="#" id="list">Portfolio</a>
+              <a class="list-group-item p-3" href="#" id="list">Blog</a>
+              <a class="list-group-item p-3" href="#" id="list">Contact Me</a>
+            </div>
+            <button class="navbar-toggler navbar-light" id="menubutton">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row h-25" id="signpage">
+        <div class="col">
+          <div class="text-center p-4" id="title">
+            <h1>My Landing Page</h1>
+          </div>
+          <div class="text-center mt-2" id="content">
+            <h5>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+              amet!
+            </h5>
+          </div>
+          <div class="text-center">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg mt-3"
+              data-bs-toggle="modal"
+              data-bs-target="#modal"
+            >
+              Sign Up
+            </button>
+          </div>
+          <div
+            class="modal fade"
+            id="modal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" id="modaltitle">
+                  <h5 class="modal-title">Sign Up</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="text mt-3" id="modalbody">
+                      Register with us to get offers, support and more
+                    </div>
+                    <label class="form-label">Name</label>
+                    <input class="form-control" placeholder="Enter Name" />
+                    <label class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Email"
+                    />
+                    <label class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Enter PassWord"
+                    />
+                    <label class="form-label">Confirm Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Confirm Password"
+                    />
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-auto w-50 pt-5" id="content">
+        <div class="col">
+          <div class="text">
+            <h4>What is this landing page about?</h4>
+          </div>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            iure accusamus ab consectetur eos provident ipsa est perferendis
+            architecto. Provident, quaerat asperiores. Quo esse minus repellat
+            sapiente, impedit obcaecati necessitatibus.
+          </div>
+          <div class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            optio officia ipsa. Cum dignissimos possimus et non provident
+            facilis saepe!
+          </div>
+          <div class="text pt-5"><h4>Tell Me More</h4></div>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+            eaque delectus explicabo qui reprehenderit? Aspernatur ad similique
+            minima accusamus maiores accusantium libero autem iusto reiciendis
+            ullam impedit esse quibusdam, deleniti laudantium rerum beatae,
+            deserunt nemo neque, obcaecati exercitationem sit. Earum.
+          </div>
+          <div class="text pt-5"><h4>Benefits</h4></div>
+          <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Customer Support</li>
+          </ul>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam
+            nostrum, fugiat, itaque natus officia laborum dolorum id accusantium
+            culpa architecto tenetur fuga? Consequatur provident rerum eius
+            ratione dolor officiis doloremque minima optio dignissimos doloribus
+            odio debitis vero cumque itaque excepturi a neque, expedita nulla
+            earum accusamus repellat adipisci veritatis quam. Ipsum fugiat iusto
+            pariatur consectetur quas libero dolor dolores dolorem, nostrum
+            ducimus doloremque placeat accusamus iste, culpa quaerat
+            consequatur?
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="../Javascript/main.js"></script>
+</html>
