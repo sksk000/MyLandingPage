@@ -1,11 +1,12 @@
 # MyLandingPage
 - HTML/CSS/Javascriptを勉強するため、[vanillawebprojects](https://vanillawebprojects.com/)にあるサイトを模写しました。
 
+## デモ
+![MyLandingPage](https://github.com/sksk000/MyLandingPage/assets/137740372/e4150405-acd9-4604-b50a-890789bbd943)
+
 ## 模写　元ページ
 https://vanillawebprojects.com/projects/modal-menu-slider/
 
-## デモ
-![MyLandingPage](https://github.com/sksk000/MyLandingPage/assets/137740372/e4150405-acd9-4604-b50a-890789bbd943)
 
 ## 実装機能
 - ハンバーガーメニュー
