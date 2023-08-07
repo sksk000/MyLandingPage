@@ -2,7 +2,8 @@
 - HTML/CSS/Javascriptを勉強するため、[vanillawebprojects](https://vanillawebprojects.com/)にあるサイトを模写しました。
 
 ## デモ
-![MyLandingPage](https://github.com/sksk000/MyLandingPage/assets/137740372/e4150405-acd9-4604-b50a-890789bbd943)
+![MyLandingPage](https://github.com/sksk000/MyLandingPage/assets/137740372/4f21d493-47b8-407f-8c6b-221c5df269d2)
+
 
 ## 模写　元ページ
 https://vanillawebprojects.com/projects/modal-menu-slider/
@@ -13,7 +14,13 @@ https://vanillawebprojects.com/projects/modal-menu-slider/
   - ボタンを押すと左に格納されていたメニュー欄が右にスライドされて表示されます。
 
 - SignUpボタン
-  - SignUpボタンを押すと、モーダルメニューが表示される
+  - SignUpボタンを押すと、モーダルが表示される
+
+- モーダル表示
+  - SignUpボタンを押すと、モーダルが表示され「UserName」「Email」「Password」「Confirm Password」の入力欄が表示されます。
+
+- モーダルウィンドウを閉じる
+  - モーダル内に☓ボタンを表示しクリックするとモーダルが閉じます。
  
 ## Github Pages URL
 - https://sksk000.github.io/MyLandingPage/
