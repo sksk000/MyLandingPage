@@ -4,10 +4,12 @@
 ## デモ
 ![MyLandingPage](https://github.com/sksk000/MyLandingPage/assets/137740372/4f21d493-47b8-407f-8c6b-221c5df269d2)
 
+## Github Pages URL
+以下のURLにアクセスすると実装物を確認することができます。
+- https://sksk000.github.io/MyLandingPage/
 
 ## 模写　元ページ
 https://vanillawebprojects.com/projects/modal-menu-slider/
-
 
 ## 実装機能
 - ハンバーガーメニュー
@@ -22,6 +24,4 @@ https://vanillawebprojects.com/projects/modal-menu-slider/
 - モーダルウィンドウを閉じる
   - モーダル内に☓ボタンを表示しクリックするとモーダルが閉じます。
  
-## Github Pages URL
-- https://sksk000.github.io/MyLandingPage/
 
